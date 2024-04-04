@@ -48,7 +48,7 @@ func init() {
 	rootCmd.AddCommand(urlCmd)
 
 	urlCmd.Flags().StringP("url", "u", "", "url to tense")
-	urlCmd.Flags().Int64P("number", "n", 10000, "number of times to tense the url")
+	urlCmd.Flags().Int64P("number", "n", 1_000_000_000, "number of times to tense the url")
 
 }
 
